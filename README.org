@@ -1,0 +1,17 @@
+#+TITLE: Markov Chain Text Generator
+#+DESCRIPTION: A simple Markov Chain text generator in Python.
+
+** Overview
+This repository contains a simple Markov Chain text generator implemented in Python. The script reads input text, builds a probability table, and generates text based on the observed word sequences.
+
+** Usage
+To generate text, run the script with the desired output length:
+
+#+BEGIN_SRC sh
+python markov.py <100 zen.txt
+#+END_SRC
+
+Where ~zen.txt~ is a text file containing the source material, and ~100~ is the number of words to generate.
+
+** Requirements
+- Python 3
